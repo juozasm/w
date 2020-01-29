@@ -1,0 +1,70 @@
+.App {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+article {
+    text-align: center;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: blueviolet;
+    .nav-item {
+        cursor: pointer;
+        font-size: 24px;
+        color: #fff;
+        padding: 0 10px;
+        &:first-child {
+            padding-left: 20px;
+        }
+        &:last-child {
+            padding-right: 20px;
+        }
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    li {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 0;
+    }
+}
+
+input {
+    height: 40px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid rgb(0, 162, 255);
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    outline: 0;
+    border: 0;
+    height: 40px;
+    border: 1px solid rgb(0, 162, 255);
+    background-color: rgb(0, 162, 255);
+    padding: 5px;
+    color: white;
+}
+.actions-wrapper {
+    display: flex;
+    align-items: center;
+}
